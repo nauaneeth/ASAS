@@ -58,7 +58,7 @@ figure,
 footer,
 header,
 hgroup,
-main,
+,
 nav,
 section {
   display: block;
@@ -413,7 +413,7 @@ h4,
 
 h5,
 .h5 {
-  font-size: 1.25rem;
+  font-size: 3rem;
 }
 
 h6,

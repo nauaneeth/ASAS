@@ -4,25 +4,23 @@
 * Author: TATOS.com
 * License: https://TATOS.com/license/
 */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Calibri", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: large;
   color: #141414;
+}
+
+.blue_class {
+  background-color: #ffffff;
 }
 
 a {
   color: #106eea;
-}
-
-p {
-  font-family: "Calibri";
-  font-size: large;
-  color: #141414;
-  text-align: justify;
 }
 
 .pulse {
@@ -391,6 +389,9 @@ h6 {
   font-family: IcoFont;
   position: absolute;
   right: 15px;
+}
+.home-content__main {
+  margin-left: 40px;
 }
 
 @media (max-width: 1366px) {
@@ -897,12 +898,10 @@ section {
 
 .section-title p {
   margin: 15px auto 0 auto;
-  font-weight: 600;
 }
 
 @media (min-width: 1024px) {
   .section-title p {
-    width: 50%;
   }
 }
 
