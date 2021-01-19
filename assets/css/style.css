@@ -18,8 +18,7 @@ a {
   color: #106eea;
 }
 
-p
-{
+p {
   font-family: "Calibri";
   font-size: large;
   color: #141414;
@@ -263,6 +262,7 @@ h6 {
   #header {
     padding: 15px;
     top: 0;
+    align-self: start;
   }
   #header .logo {
     font-size: 28px;
